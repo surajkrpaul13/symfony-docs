@@ -250,7 +250,7 @@ Override the File Widget Template Fragment
 
 Each field type is rendered by a template fragment. Those template fragments
 can be overridden in order to customize form rendering. For more information,
-you can refer to the :ref:`cookbook-form-customization-form-themes` article.
+you can refer to the :ref:`cookbook-form-customization-form-themes` and :ref:`twig` article.
 
 In your extension class, you have added a new variable (``image_url``), but
 you still need to take advantage of this new variable in your templates.
@@ -286,7 +286,7 @@ Specifically, you need to override the ``file_widget`` block:
 
     You will need to change your config file or explicitly specify how
     you want your form to be themed in order for Symfony to use your overridden
-    block. See :ref:`cookbook-form-customization-form-themes` for more
+    block. See :ref:`cookbook-form-customization-form-themes` and :ref:`twig` article for more
     information.
 
 Using the Form Type Extension
